@@ -1,3 +1,6 @@
+import sys
+
+
 def show_menu():
   print("\nMenu:")
   print("1. Adicionar tarefa")
@@ -56,6 +59,7 @@ while True:
         list_tasks(tasks, completed = True)
       case 5:
         print("Encerrando o programa. Tchau!")
+        sys.exit()
       case _:
         print("Essa opção não existe. Aprenda a ler.")
         break

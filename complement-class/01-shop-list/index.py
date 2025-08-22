@@ -1,3 +1,6 @@
+import sys
+
+
 def show_menu():
   print("\nMenu:")
   print("1. Adicionar item")
@@ -47,7 +50,7 @@ while True:
       list_items(list)
     elif option == 4:
       print("Encerrando o programa. Tchau!")
-      break
+      sys.exit()
     else:
       print("Essa opção não existe. Aprenda a ler.")
   except ValueError:
