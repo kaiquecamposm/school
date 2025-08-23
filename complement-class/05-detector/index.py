@@ -30,5 +30,4 @@ def main():
   clean_data = remove_abnormal_temps(data)
   print(f"Qauntidade de leituras após remoção de anomálias: {len(clean_data)}")
 
-
 main()
